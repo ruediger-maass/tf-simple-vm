@@ -1,15 +1,15 @@
-variable "ibmid" {
+variable "ibmcloud_bmx_api_key" {
    type = "string"
-   description = "Your IBM-ID."
+   description = "Your IBM Bluemix API key."
 }
 
-variable "ibmidpw" {
+variable "ibmcloud_sl_username" {
    type = "string"
-   description = "The password for your IBM-ID."
+   description = "Your Softlayer username."
 }
 
-variable "slaccountnum" {
+variable "ibmcloud_sl_api_key" {
    type = "string"
    default = ""
-   description = "Your Softlayer account number."
+   description = "Your Softlayer API key."
 }
