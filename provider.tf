@@ -1,6 +1,5 @@
 provider "ibmcloud" {
-  ibmid              = "${var.ibmid}"
-  ibmid_password     = "${var.ibmidpw}"
-  softlayer_timeout  = 300
-  softlayer_account_number = "${var.slaccountnum}"
+  bluemix_api_key    = "${var.bxapikey}"
+  softlayer_api_key  = "${var.slapikey}"
+  softlayer_username = "${var.slusername}"
 }
