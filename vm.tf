@@ -3,7 +3,7 @@
 resource "ibmcloud_infra_virtual_guest" "debian_small_virtual_guest" {
   os_reference_code        = "DEBIAN_7_64"
   domain                   = "cam.ibm.com"
-  datacenter               = "wdc04"
+  datacenter               = "dal10"
   network_speed            = 100
   hourly_billing           = true
   private_network_only     = false
